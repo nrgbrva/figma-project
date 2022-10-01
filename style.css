@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+@font-face {
+    font-family:Roboto Slab ;
+    src: url(/RobotoSlab-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.container{
+    width: 1440px;
+    padding: 91px 124px;
+    margin: 0 auto;
+}
+section{
+    display: flex;    
+    margin: 100px 0px;
+    justify-content: space-between; 
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title p{
+    width: 662px;
+    height: 374px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    color: #000000;
+}
+h1{
+    font-family: 'Roboto Slab';
+    width: 365px;
+    height: 93px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+}
+.img-f{
+    width: 314px;
+    height: 315px;
+}
+section h4{
+    width: 150px;
+    height: 39px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color: #000000;
+}
+section p{
+    width: 150px;
+    height: 39px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    color: #000000;
+}
+.img-l{
+    width: 232px;
+    height: 203px;
+}
+section div{
+    margin-left: 115px;
+}
+@media (max-width: 1440px){
+    .container{
+        width: 830px;
+        padding: 56px 72px;
+    }
+    section{
+        display: flex;
+    }
+    .title{
+        display: flex;
+    }
+    .title p{
+        width: 383.41px;
+        height: 216.61px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+        color: #000000;
+    }
+    h1{
+        font-family: 'Roboto Slab';
+        width: 211.4px;
+        height: 53.86px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 101.38%;
+        /* or 32px */
+        color: #000000;
+    }
+    .img-f{
+        width: 181.86px;
+        height: 182.44px;
+    }
+    .img-l{
+        display: none;
+    }
+    section h4{
+        width: 86.88px;
+        height: 22.59px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 130%;
+        /* or 19px */
+        color: #000000;
+    }
+    section p{
+        width: 86.88px;
+        height: 22.59px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 130%;
+        /* or 14px */
+        color: #000000;
+    }
+    section div{
+        margin-right: 70px;
+        margin-left: 0;
+    }
+}
+@media (max-width: 830px){
+    .container{
+        width: 375px;
+        padding: 56px 36px;
+    }
+    .title{
+        display: block;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    .title p{
+        width: 308.47px;
+        height: 174.27px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        /* or 18px */
+        color: #000000;
+    }
+    h1{
+        font-family: 'Roboto Slab';
+        width: 170.08px;
+        height: 43.34px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+        /* or 26px */
+        color: #000000;
+    }
+    .img-f{
+        width: 146.32px;
+        height: 146.78px;
+        margin-top: 30px;
+    }
+    .img-l{
+        display: none;
+    }
+    section h4{
+        width: 69.9px;
+        height: 18.17px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+        color: #000000;
+    }
+    section p{
+        width: 86px;
+        height: 18px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 130%;
+        /* or 13px */
+        color: #000000;
+    }
+    section div{
+        margin-bottom: 30px;
+        margin-right: 30px;
+    }
+}
