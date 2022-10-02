@@ -173,7 +173,8 @@ section div{
     .img-f{
         width: 146.32px;
         height: 146.78px;
-        margin-top: 30px;
+        margin: 0 25%;
+        margin-top: 56px;
     }
     .img-l{
         display: none;
